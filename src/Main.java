@@ -7,8 +7,9 @@ public class Main {
         int weight = in.nextInt();
         int heightInCM = in.nextInt();
 
-        int height = heightInCM / 100;
+        double height = ((double) heightInCM / 100);
+        double heightInM = Math.pow(height,2);
 
-        System.out.println("Your ideal bmi weight: "+weight/Math.pow(height, 2));
+        System.out.println("Your bmi weight: "+weight/heightInM);
     }
 }
