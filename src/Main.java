@@ -7,9 +7,9 @@ public class Main {
         int weight = in.nextInt();
         int heightInCM = in.nextInt();
 
-        double height = ((double) heightInCM / 100);
-        double heightInM = Math.pow(height,2);
+//        double height = ((double) heightInCM / 100);
+//        double heightInM = Math.pow(height,2);
 
-        System.out.println("Your bmi weight: "+weight/heightInM);
+//        System.out.println("Your bmi weight: "+weight/heightInM);
     }
 }
